@@ -1,0 +1,203 @@
+body{
+  background-color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.container-fluid {
+  padding: 0 4%;
+}
+
+
+.home-pic {
+  width: 100%;
+  padding-left: 2%;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #fff;
+  padding: 0 5%;
+}
+
+.nav-link {
+  font-family: "Montserrat",serif;
+}
+
+.navbar-brand {
+  font-family: 'Crimson Pro', serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* About section */
+
+#about {
+  margin: 2% 5% 2% 4.75%;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.ab-heading {
+  font-weight: bold;
+  text-align: right;
+  padding: 0 4%;
+}
+
+.ash1 {
+  text-align: right;
+  font-weight: bold;
+  color: #C9C7A5;
+  padding: 1% 4%;
+}
+.ash2 {
+  text-align: left;
+  font-weight: bold;
+  color: #C9C7A5;
+  padding: 1% 4%;
+}
+.ash3 {
+  text-align: right;
+  font-weight: bold;
+  color: #C9C7A5;
+  padding: 1% 4%;
+}
+
+.ad1 {
+  text-align: justify;
+  text-indent: 10%;
+  padding: 0 4%;
+  color: #fff;
+}
+.ad2 {
+  text-align: justify;
+  text-indent: 10%;
+  padding: 0 4%;
+  color: #fff;
+}
+.ad3 {
+  text-align: justify;
+  text-indent: 10%;
+  padding: 0 4% 3%;
+  color: #fff;
+}
+
+hr {
+  border-width: thick;
+  border-bottom: none;
+  border-color: #0054A7;
+}
+
+/* Services section */
+
+#services {
+  margin: 2% 5% 2% 4.75%;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.card-header {
+  background-color: #0054A7;
+  color:#fff;
+  text-align: left;
+  padding-left: 4%;
+}
+
+.serv-heading {
+  font-weight: bold;
+  text-align: left;
+  padding: 0 4%;
+}
+
+.service-text {
+  text-align: justify;
+  color:#344043;
+}
+
+/* Projects section */
+#projects {
+  margin: 2% 5% 2% 4.75%;
+  text-align: left;
+  font-family: "Montserrat";
+}
+
+.proj-heading {
+  font-weight: bold;
+  text-align: right;
+  padding: 0 4%;
+}
+
+.completed-projs {
+  padding-bottom: 2%;
+}
+.ongoing-projs {
+  padding-bottom: 2%;
+}
+
+/* Footer section */
+
+#features {
+  margin: 2% 5% 2% 4.75%;
+
+}
+
+.feature-title{
+  font-weight: bold;
+}
+
+p {
+  font-family: "Montserrat",serif;
+  color: #8f8f8f;
+}
+
+.icon:hover {
+  color: #0054A7;
+}
+
+.icon {
+  color: #7196B0;
+}
+
+.contact-icon {
+  margin: 5% 4%;
+  color: #8f8f8f;
+}
+
+.footerinfo{
+  padding: 1%;
+}
+
+.copyright {
+background-color: #d1d2d0;
+}
+
+
+@media (max-width: 1028px) {
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+
+  .navbar {
+    padding: 1% 8%;
+    background-color: #fff;
+  }
+
+  .nav-link{
+    text-align: center;
+  }
+
+  .home-pic {
+    width: 100%;
+    padding-left: 7%;
+  }
+
+  #about {
+    margin:2% 7%;
+    text-align: center;
+    font-family: "Montserrat";
+  }
+
+}
